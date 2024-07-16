@@ -81,8 +81,8 @@ extra:
   analytics:
     provider: google
     property: !ENV GOOGLE_ANALYTICS_KEY
-  homepage: https://kingsoftwaresolution.com/
-  generator: false
+  #homepage: https://kingsoftwaresolution.com/
+  #generator: false
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/srammu/
