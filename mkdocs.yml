@@ -30,9 +30,6 @@ extra:
     - name: English
       link: /en/ 
       lang: en
-    - name: Japanese
-      link: /ja/
-      lang: ja
       - name: Kannada
       link: /kn/
       lang: kn
@@ -42,36 +39,6 @@ extra:
       - name: Telugu
       link: /te/
       lang: te
-      - name: Urdu
-      link: /ur/
-      lang: ur
-      - name: German
-      link: /de/
-      lang: de
-      - name: Spanish
-      link: /es/
-      lang: es
-      - name: French
-      link: /fr/
-      lang: fr
-      - name: Russian
-      link: /ru/
-      lang: ru
-      - name: Chinese (Simplified)
-      link: /zh/
-      lang: zh
-      - name: Bengali (Bangla)
-      link: /bn/
-      lang: bn
-      - name: Arabic
-      link: /ar/
-      lang: ar
-      - name: Korean
-      link: /ko/
-      lang: ko
-      - name: Esperanto
-      link: /eo/
-      lang: eo
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/srammu/
