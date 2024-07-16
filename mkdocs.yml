@@ -4,6 +4,7 @@ theme:
   palette:
     primary: indigo
     accent: indigo
+    
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
       toggle:
