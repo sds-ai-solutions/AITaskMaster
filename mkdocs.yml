@@ -1,3 +1,19 @@
 site_name: My Docs
 theme:
   name: material
+  font: false
+  nav:
+  - Section:
+    - section/index.md 
+    - Page 1: section/page-1.md
+    ...
+    - Page n: section/page-n.md
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.path
+    - navigation.indexes
+    - navigation.top
