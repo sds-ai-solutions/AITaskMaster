@@ -60,7 +60,8 @@ Leverage open-source AI libraries and models
 - [ ] Deployment and launch preparation (2 weeks)
 - [x] **Total development time:** Approximately 6 months
 
-``` py title="Sample Code Snippet (Python with FastAPI):" { .yaml .select .copy }
+!!! example "Sample Code Snippet (Python with FastAPI):"
+``` { .yaml .select .copy }
 from fastapi import FastAPI, Depends, HTTPException
 from sqlalchemy.orm import Session
 from pydantic import BaseModel
