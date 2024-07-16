@@ -5,6 +5,8 @@ theme:
   icon:
     previous: fontawesome/solid/angle-left
     next: fontawesome/solid/angle-right
+    admonition:
+      <type>: <icon>
   nav:
   - Section:
     - Page 1: page-1.md
