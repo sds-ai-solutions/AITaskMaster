@@ -40,14 +40,16 @@ Utilize reinforcement learning for improving time estimates
 Leverage open-source AI libraries and models
 
 ##Financial Projection:
-Category	Monthly Cost	Monthly Revenue	Monthly Profit
-Server Hosting	$100	-	-
-Domain & SSL	$10	-	-
-Marketing (Content & SEO)	$500	-	-
-Subscriptions (500 users @ $20/month)	-	$10,000	-
-###Total	$610	$10,000	$9,390
+| **Category**                            |** Monthly Cost**    | **Monthly Revenue**    | **Monthly Profit**    |
+| --------------------------------------- | ------------------- | ---------------------- | --------------------- |
+| Server Hosting                          | $100                | -                      | -                     |
+| Domain & SSL                            | $10                 | -                      | -                     |
+| Marketing (Content & SEO)               | $500	            | -                      | -                     |
+| Subscriptions (500 users @ $20/month)   | -                   | $10,000                | -                     |
+| --------------------------------------- | ------------------- | ---------------------- | --------------------- |
+| **Total**                               | **$610**            | **$10,000**            | **$9,390**            |
 
-##Implementation Roadmap:
+**##Implementation Roadmap:**
 Set up development environment (2 weeks)
 Design database schema and API endpoints (2 weeks)
 Develop core backend functionality (4 weeks)
