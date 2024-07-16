@@ -13,12 +13,24 @@ Collaborative features for team productivity
 Small business owners, freelancers, and remote teams looking to maximize productivity and efficiency.
 
 ##Technical Requirements:
-Physical Server: Mid-range server with at least 16GB RAM, 4 CPU cores, 1TB SSD
-Operating System: Ubuntu Server 20.04 LTS (free)
-Web Server: Nginx (free)
-Database: PostgreSQL (free)
-Backend: Python with FastAPI framework (free)
-Frontend: Vue.js (free)
+#####Physical Server:
+Mid-range server with at least 16GB RAM, 4 CPU cores, 1TB SSD
+
+#####Operating System:
+Ubuntu Server 20.04 LTS (free)
+
+#####Web Server:
+Nginx (free)
+
+#####Database:
+PostgreSQL (free)
+
+#####Backend:
+Python with FastAPI framework (free)
+
+#####Frontend: 
+Vue.js (free)
+
 
 ##AI Integration: TensorFlow or PyTorch (free)
 Version Control: Git (free)
