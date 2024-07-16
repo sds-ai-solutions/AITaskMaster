@@ -2,7 +2,6 @@ site_name: AI Task Master
 theme:
   name: material
   font: false
-  language: en
   icon:
     previous: fontawesome/solid/angle-left
     next: fontawesome/solid/angle-right
@@ -26,19 +25,6 @@ plugins:
 extra:
   homepage: https://kingsoftwaresolution.com/
   generator: false
-  alternate:
-    - name: English
-      link: /en/ 
-      lang: en
-      - name: Kannada
-      link: /kn/
-      lang: kn
-      - name: Hindi
-      link: /hu/
-      lang: hu
-      - name: Telugu
-      link: /te/
-      lang: te
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/srammu/
