@@ -2,8 +2,6 @@ site_name: AI Task Master
 theme:
   name: material
   font: false
-  - content.code.copy
-  - content.code.select
   icon:
     previous: fontawesome/solid/angle-left
     next: fontawesome/solid/angle-right
