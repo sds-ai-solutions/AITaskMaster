@@ -1,4 +1,4 @@
-**#AI WebVentures: Your Low-Cost, High-Profit Web App Solution**
+#AI WebVentures: Your Low-Cost, High-Profit Web App Solution
 
 ##Introducing: AITaskMaster
 
@@ -59,6 +59,12 @@ Leverage open-source AI libraries and models
 - [ ] Testing and bug fixing (4 weeks)
 - [ ] Deployment and launch preparation (2 weeks)
 - [x] **Total development time:** Approximately 6 months
+
+!!! note "Phasellus posuere in sem ut cursus"
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+    massa, nec semper lorem quam in massa.
 
 !!! example "Sample Code Snippet (Python with FastAPI):"
     ``` { .yaml .select .copy }
