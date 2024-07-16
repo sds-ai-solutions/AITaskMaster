@@ -4,8 +4,8 @@ theme:
   font: false
   nav:
   - Section:
-    - Page 1: section/page-1.md
-    - Page 2: section/page-2.md
+    - Page 1: page-1.md
+    - Page 2: page-2.md
   features:
     - navigation.instant
     - navigation.instant.progress
