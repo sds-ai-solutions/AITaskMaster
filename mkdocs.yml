@@ -1,7 +1,53 @@
+# Project information
 site_name: AI Task Master
+site_url: https://srammu.github.io/AITaskMaster/
+site_author: Siddarudreswara Somashekar
+site_description: >-
+  AI-driven task prioritization Intelligent time estimation for tasks Personalized productivity insights and recommendations Integration with popular calendar and email services Collaborative features for team productivity
+
+# Repository
+repo_name: srammu/AITaskMaster
+repo_url: https://github.com/srammu/AITaskMaster/
+
+# Copyright
+copyright: Copyright &copy; 2023 - 2025 King Software Solution
+
+# Configuration
 theme:
   name: material
-  font: false
+  custom_dir: material/overrides
+  features:
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    # - content.code.select
+    # - content.footnote.tooltips
+    # - content.tabs.link
+    - content.tooltips
+    # - header.autohide
+    # - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    # - navigation.instant
+    # - navigation.instant.prefetch
+    # - navigation.instant.progress
+    # - navigation.prune
+    - navigation.path
+    - navigation.sections
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    # - toc.integrate
+  font:
+    text: Roboto
+    code: Roboto Mono
   icon:
     previous: fontawesome/solid/angle-left
     next: fontawesome/solid/angle-right
@@ -19,26 +65,22 @@ theme:
       example: octicons/beaker-16
       quote: octicons/quote-16
 
-  nav:
-  - Section:
-    - Page 1: page-1.md
-    - Page 2: page-2.md
-  features:
-    - content.code.copy
-    - content.code.select
-    - search.suggest
-    - search.highlight
-    - search.share
-    - navigation.instant
-    - navigation.instant.progress
-    - navigation.tracking
-    - navigation.path
-    - navigation.indexes
-    - navigation.top
-    - navigation.sections
+# Plugins
 plugins:
-  - search
+  - blog
+  - search:
+      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - minify:
+      minify_html: true
+
+# Additional configuration
 extra:
+    status:
+    new: Recently added
+    deprecated: Deprecated
+  analytics:
+    provider: google
+    property: !ENV GOOGLE_ANALYTICS_KEY
   homepage: https://kingsoftwaresolution.com/
   generator: false
   social:
@@ -48,18 +90,61 @@ extra:
     - icon: fontawesome/brands/facebook
       link: https://facebook.com/
       name: King Software Solution on Facebook
-copyright: Copyright &copy; 2023 - 2024 King Software Solution
+
+# Extensions
 markdown_extensions:
   - tables
+  - abbr
+  - admonition
+  - attr_list
   - def_list
-  - pymdownx.tasklist:
-      custom_checkbox: true
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
   - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - pymdownx.superfences
-  - admonition
-  - pymdownx.details
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      normalize_issue_symbols: true
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      auto_append:
+        - includes/mkdocs.md
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+      combine_header_slug: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+  # Page tree
+  nav:
+  - Home: index.md
+  - Roadmap:
+    - Page 1: page-1.md
+    - Page 2: page-2.md
