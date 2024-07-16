@@ -7,6 +7,8 @@ theme:
     - Page 1: page-1.md
     - Page 2: page-2.md
   features:
+    - search.suggest
+    - search.highlight
     - navigation.instant
     - navigation.instant.progress
     - navigation.tracking
@@ -14,3 +16,5 @@ theme:
     - navigation.indexes
     - navigation.top
     - navigation.sections
+plugins:
+  - search
