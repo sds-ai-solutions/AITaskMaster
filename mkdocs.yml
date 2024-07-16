@@ -2,6 +2,9 @@ site_name: AI Task Master
 theme:
   name: material
   font: false
+  icon:
+    previous: fontawesome/solid/angle-left
+    next: fontawesome/solid/angle-right
   nav:
   - Section:
     - Page 1: page-1.md
@@ -9,6 +12,7 @@ theme:
   features:
     - search.suggest
     - search.highlight
+    - search.share
     - navigation.instant
     - navigation.instant.progress
     - navigation.tracking
@@ -19,7 +23,54 @@ theme:
 plugins:
   - search
 extra:
+  homepage: https://kingsoftwaresolution.com/
   generator: false
+  alternate:
+    - name: English
+      link: /en/ 
+      lang: en
+    - name: Japanese
+      link: /ja/
+      lang: ja
+      - name: Kannada
+      link: /kn/
+      lang: kn
+      - name: Hindi
+      link: /hu/
+      lang: hu
+      - name: Telugu
+      link: /te/
+      lang: te
+      - name: Urdu
+      link: /ur/
+      lang: ur
+      - name: German
+      link: /de/
+      lang: de
+      - name: Spanish
+      link: /es/
+      lang: es
+      - name: French
+      link: /fr/
+      lang: fr
+      - name: Russian
+      link: /ru/
+      lang: ru
+      - name: Chinese (Simplified)
+      link: /zh/
+      lang: zh
+      - name: Bengali (Bangla)
+      link: /bn/
+      lang: bn
+      - name: Arabic
+      link: /ar/
+      lang: ar
+      - name: Korean
+      link: /ko/
+      lang: ko
+      - name: Esperanto
+      link: /eo/
+      lang: eo
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/srammu/
