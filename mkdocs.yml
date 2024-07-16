@@ -18,3 +18,13 @@ theme:
     - navigation.sections
 plugins:
   - search
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/srammu/
+      name: King Koftware Solution on Github
+    - icon: fontawesome/brands/facebook
+      link: https://facebook.com/
+      name: King Software Solution on Facebook
+  copyright: Copyright &copy; 2023 - 2024 King Software Solution
