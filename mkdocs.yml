@@ -2,6 +2,8 @@ site_name: AI Task Master
 theme:
   name: material
   font: false
+  - content.code.copy
+  - content.code.select
   icon:
     previous: fontawesome/solid/angle-left
     next: fontawesome/solid/angle-right
@@ -35,11 +37,13 @@ extra:
 copyright: Copyright &copy; 2023 - 2024 King Software Solution
 markdown_extensions:
   - tables
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
+  - pymdownx.inlinehilite
   - pymdownx.snippets
-  - def_list
-  - pymdownx.tasklist:
-      custom_checkbox: true
+  - pymdownx.superfences
