@@ -16,27 +16,14 @@ Collaborative features for team productivity
 
 Small business owners, freelancers, and remote teams looking to maximize productivity and efficiency.
 
-##Technical Requirements:
-- Physical Server: Mid-range server with at least 16GB RAM, 4 CPU cores, 1TB SSD
-- Operating System: Ubuntu Server 20.04 LTS (free)
-- Web Server: Nginx (free)
-- Database: PostgreSQL (free)
-- Backend: Python with FastAPI framework (free)
-- Frontend: Vue.js (free)
-
-
-##AI Integration:
-TensorFlow or PyTorch (free)
-
-Version Control: Git (free)
-
-AI Support: Use pre-trained models for natural language processing
-
-Implement transfer learning for task classification
-
-Utilize reinforcement learning for improving time estimates
-
-Leverage open-source AI libraries and models
+|**Technical Requirements:**                                                         | **AI Integration:**                                                    |
+| ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| - Physical Server: Mid-range server with at least 16GB RAM, 4 CPU cores, 1TB SSD   | TensorFlow or PyTorch (free)                                           |
+| - Operating System: Ubuntu Server 20.04 LTS (free)                                 | Version Control: Git (free)                                            |
+| - Web Server: Nginx (free)                                                         | AI Support: Use pre-trained models for natural language processing     |
+| - Database: PostgreSQL (free)                                                      | Implement transfer learning for task classification                    |
+| - Backend: Python with FastAPI framework (free)                                    | Utilize reinforcement learning for improving time estimates            |
+| - Frontend: Vue.js (free)                                                          | Leverage open-source AI libraries and models                           |
 
 ##Financial Projection:
 
@@ -59,12 +46,6 @@ Leverage open-source AI libraries and models
 - [ ] Testing and bug fixing (4 weeks)
 - [ ] Deployment and launch preparation (2 weeks)
 - [x] **Total development time:** Approximately 6 months
-
-!!! note "Phasellus posuere in sem ut cursus"
-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
-    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-    massa, nec semper lorem quam in massa.
 
 !!! example "Sample Code Snippet (Python with FastAPI):"
     ``` { .yaml .select .copy }
