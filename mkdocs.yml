@@ -148,3 +148,7 @@ nav:
   - Getting started: index.md
   - Start Your AITaskMaster Project: start-project.md
   - 1. Set Up Your Development Environment: development-environment.md
+  - 2. Design Your Database Schema
+  - 3. Implement Core Backend Functionality
+  - 4. Develop the Frontend
+  - 5. Integrate AI Models
