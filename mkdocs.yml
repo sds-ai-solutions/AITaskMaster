@@ -146,6 +146,4 @@ markdown_extensions:
 # Page tree
 nav:
   - Getting started: index.md
-  - Roadmap:
-    - Page 1: page1.md
-    - Page 2: page2.md
+  - Start Your AITaskMaster Project: start-project.md
