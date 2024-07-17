@@ -4,29 +4,31 @@ Welcome to the backend implementation phase of AITaskMaster! Here, we'll set up 
 ## **Project Structure**
 First, let's organize our project structure:
 
-> aitaskmaster/
-> │
-> ├── app/
-> │   ├── __init__.py
-> │   ├── main.py
-> │   ├── models.py
-> │   ├── schemas.py
-> │   ├── crud.py
-> │   ├── database.py
-> │   └── api/
-> │       ├── __init__.py
-> │       ├── users.py
-> │       ├── tasks.py
-> │       └── projects.py
-> │
-> ├── tests/
-> │   └── test_api.py
-> │
-> ├── alembic/
-> │   └── ...
-> │
-> ├── requirements.txt
-> └── .env
+'''
+aitaskmaster/
+│
+├── app/
+│   ├── __init__.py
+│   ├── main.py
+│   ├── models.py
+│   ├── schemas.py
+│   ├── crud.py
+│   ├── database.py
+│   └── api/
+│       ├── __init__.py
+│       ├── users.py
+│       ├── tasks.py
+│       └── projects.py
+│
+├── tests/
+│   └── test_api.py
+│
+├── alembic/
+│   └── ...
+│
+├── requirements.txt
+└── .env
+'''
 
 ## **Setting Up the Main Application**
 Let's start by creating the main FastAPI application. Create a file named main.py in the app directory:
@@ -169,7 +171,7 @@ class User(UserBase):
 ```
 > These Pydantic models define the structure of the data that will be sent to and received from the API.
 
-> ## **AI Assistant**
+## **AI Assistant**
 > Great progress on setting up the backend for AITaskMaster! Here are some next steps and considerations:
 >
 >    - Implement similar API endpoints and CRUD operations for tasks and projects.
@@ -177,6 +179,7 @@ class User(UserBase):
 >    - Implement the AI-powered features for task prioritization and time estimation.
 >    - Set up unit tests to ensure your API endpoints are working correctly.
 >    - Consider adding input validation and error handling to make your API more robust.
+>      
 > Remember to always follow best practices for security, such as properly hashing passwords and validating user input.
 
 You've now set up the core backend functionality for AITaskMaster! The next step is to implement the AI models for task prioritization and time estimation, and then move on to frontend development.
