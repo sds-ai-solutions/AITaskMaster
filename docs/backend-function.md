@@ -4,7 +4,7 @@ Welcome to the backend implementation phase of AITaskMaster! Here, we'll set up 
 ## **Project Structure**
 First, let's organize our project structure:
 
-'''
+``` { .yaml .copy }
 aitaskmaster/
 │
 ├── app/
@@ -28,7 +28,9 @@ aitaskmaster/
 │
 ├── requirements.txt
 └── .env
-'''
+```
+
+
 
 ## **Setting Up the Main Application**
 Let's start by creating the main FastAPI application. Create a file named main.py in the app directory:
