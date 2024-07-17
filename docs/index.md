@@ -47,6 +47,14 @@ Small business owners, freelancers, and remote teams looking to maximize product
 - [ ] Deployment and launch preparation (2 weeks)
 - [x] **Total development time:** Approximately 6 months
 
+``` py title="Sample Code Snippet (Python with FastAPI):"
+def bubble_sort(items):
+    for i in range(len(items)):
+        for j in range(len(items) - 1 - i):
+            if items[j] > items[j + 1]:
+                items[j], items[j + 1] = items[j + 1], items[j]
+```
+
 !!! example "Sample Code Snippet (Python with FastAPI):"
     ``` { .yaml .copy }
     from fastapi import FastAPI, Depends, HTTPException
