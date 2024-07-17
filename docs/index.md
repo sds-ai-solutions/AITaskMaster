@@ -47,39 +47,39 @@ Small business owners, freelancers, and remote teams looking to maximize product
 - [ ] Deployment and launch preparation (2 weeks)
 - [x] **Total development time:** Approximately 6 months
 
-```  { .yaml .copy }
-from fastapi import FastAPI, Depends, HTTPException
-from sqlalchemy.orm import Session
-from pydantic import BaseModel
-from typing import List
-import ml_model  # Custom module for AI functionality
-
-app = FastAPI()
-
-class Task(BaseModel):
-    title: str
-    description: str
-    estimated_time: float
-
-@app.post("/tasks/", response_model=Task)
-def create_task(task: Task, db: Session = Depends(get_db)):
-    db_task = models.Task(**task.dict())
-    db.add(db_task)
-    db.commit()
-    db.refresh(db_task)
+    ```  { .yaml .copy }
+    from fastapi import FastAPI, Depends, HTTPException
+    from sqlalchemy.orm import Session
+    from pydantic import BaseModel
+    from typing import List
+    import ml_model  # Custom module for AI functionality
     
-    # Use AI to estimate time and prioritize
-    db_task.estimated_time = ml_model.estimate_time(db_task.title, db_task.description)
-    db_task.priority = ml_model.prioritize_task(db_task.title, db_task.description)
+    app = FastAPI()
     
-    db.commit()
-    return db_task
-
-@app.get("/tasks/", response_model=List[Task])
-def read_tasks(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
-    tasks = db.query(models.Task).offset(skip).limit(limit).all()
-    return tasks
-```
+    class Task(BaseModel):
+        title: str
+        description: str
+        estimated_time: float
+    
+    @app.post("/tasks/", response_model=Task)
+    def create_task(task: Task, db: Session = Depends(get_db)):
+        db_task = models.Task(**task.dict())
+        db.add(db_task)
+        db.commit()
+        db.refresh(db_task)
+        
+        # Use AI to estimate time and prioritize
+        db_task.estimated_time = ml_model.estimate_time(db_task.title, db_task.description)
+        db_task.priority = ml_model.prioritize_task(db_task.title, db_task.description)
+        
+        db.commit()
+        return db_task
+    
+    @app.get("/tasks/", response_model=List[Task])
+    def read_tasks(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
+        tasks = db.query(models.Task).offset(skip).limit(limit).all()
+        return tasks
+    ```
 
 !!! example "Sample Code Snippet (Python with FastAPI):"
     ``` { .yaml .copy }
