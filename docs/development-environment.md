@@ -6,17 +6,18 @@ Welcome to the development environment setup for AITaskMaster! This guide will w
 	AITaskMaster requires Python 3.9 or newer. Let's check your current Python version:
 	
 	**$ python --version**
-	Python 3.9.5
+	Python 3.9.5 /
 	If you see a version lower than 3.9, please download and install the latest Python version.
 
-Step 2: Set up a virtual environment
-Create a new directory for your project and set up a virtual environment:
+???+ abstract "Step 2: Set up a virtual environment"
 
-$ mkdir aitaskmaster
-$ cd aitaskmaster
-$ python -m venv venv
-$ source venv/bin/activate # On Windows, use `venv\Scripts\activate`
-You should now see (venv) at the beginning of your command prompt, indicating that the virtual environment is active.
+	Create a new directory for your project and set up a virtual environment:
+	
+	**$ mkdir aitaskmaster /
+	$ cd aitaskmaster /
+	$ python -m venv venv /
+	$ source venv/bin/activate # On Windows, use `venv\Scripts\activate`** /
+	You should now see (venv) at the beginning of your command prompt, indicating that the virtual environment is active.
 
 Step 3: Install FastAPI and dependencies
 Now, let's install FastAPI and other necessary packages:
