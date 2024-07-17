@@ -1,8 +1,8 @@
-# AITaskMaster Database Schema Designer
+# **AITaskMaster Database Schema Designer**
 Welcome to the Database Schema Designer for AITaskMaster! Here, we'll create an efficient and scalable database structure to support your AI-powered task management application. Our AI has analyzed your requirements and suggests the following schema:
 
 | **Users**                         | **Tasks**                              | **Projects**                        |
-| --------------------------------- | -------------------------------------- | ----------------------------------- |
+| :-------------------------------: | :------------------------------------: | :---------------------------------: |
 | **id:** Integer (Primary Key)     | **id:** Integer (Primary Key)          | **id:** Integer (Primary Key)       |
 | **username:** String (Unique)     | **title:** String                      | **name:** String                    |
 | **email:** String (Unique)        | **description:** Text                  | **description:** Text               |
