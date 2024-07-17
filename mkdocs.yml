@@ -22,7 +22,7 @@ theme:
     - content.action.view
     - content.code.annotate
     - content.code.copy
-    # - content.code.select
+    - content.code.select
     # - content.footnote.tooltips
     # - content.tabs.link
     - content.tooltips
@@ -71,17 +71,17 @@ plugins:
   - social
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
-  #- minify:
-      #minify_html: true
+  - minify:
+      minify_html: true
 
 # Additional configuration
 extra:
     status:
     new: Recently added
     deprecated: Deprecated
-    #analytics:
-      #provider: google
-      #property: !ENV GOOGLE_ANALYTICS_KEY
+    analytics:
+      provider: google
+      property: !ENV GOOGLE_ANALYTICS_KEY
     homepage: https://kingsoftwaresolution.com/
     generator: false
     social:
@@ -109,9 +109,9 @@ markdown_extensions:
       smart_enable: all
   - pymdownx.caret
   - pymdownx.details
-  #- pymdownx.emoji:
-      #emoji_generator: !!python/name:material.extensions.emoji.to_svg
-      #emoji_index: !!python/name:material.extensions.emoji.twemoji
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
