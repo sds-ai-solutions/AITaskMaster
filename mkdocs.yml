@@ -152,3 +152,4 @@ nav:
   - 3. Implement Core Backend Functionality: backend-function.md
   - 4. Develop the Frontend: dev-frontend.md
   - 5. Integrate AI Models: integrate-ai.md
+  - Testing and Deployment: test&deploy.md
