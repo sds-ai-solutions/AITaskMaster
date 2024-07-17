@@ -71,6 +71,7 @@ Welcome to the development environment setup for AITaskMaster! This guide will w
 ## **AI Assistant**
 Great job setting up your development environment! Here's a quick Python script to verify that everything is working correctly. Create a file named test_setup.py and paste the following code:
 
+``` { .yaml .copy }
 from fastapi import FastAPI
 from sqlalchemy import create_engine, Column, Integer, String
 from sqlalchemy.ext.declarative import declarative_base
@@ -97,10 +98,12 @@ def read_root():
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000)
-  
-Replace 'your_password' with your actual PostgreSQL password. Then run the script:
+```
 
-$ python test_setup.py
-If everything is set up correctly, you should see output indicating that the server is running. You can then visit http://localhost:8000 in your browser to see the JSON response.
+Replace **'your_password'** with your actual **PostgreSQL password**. Then run the script:
+
+**$ python test_setup.py**
+
+If everything is set up correctly, you should see output indicating that the server is running. You can then visit [http://localhost:8000](http://localhost:8000) in your browser to see the JSON response.
 
 Congratulations! You've successfully set up your development environment for AITaskMaster. You're now ready to start building your AI-powered task management application!
