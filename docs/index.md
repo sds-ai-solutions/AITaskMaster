@@ -47,9 +47,10 @@ Small business owners, freelancers, and remote teams looking to maximize product
 - [ ] Deployment and launch preparation (2 weeks)
 - [x] **Total development time:** Approximately 6 months
 
-``` { .yaml .copy }
-# Code block content
-```
+!!! example "T"
+    ``` { .yaml .copy }
+    # Code block content
+    ```
 
 !!! example "Sample Code Snippet (Python with FastAPI):"
     ``` { .yaml .copy }
