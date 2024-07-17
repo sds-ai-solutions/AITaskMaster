@@ -1,35 +1,18 @@
 # AITaskMaster Database Schema Designer
 Welcome to the Database Schema Designer for AITaskMaster! Here, we'll create an efficient and scalable database structure to support your AI-powered task management application. Our AI has analyzed your requirements and suggests the following schema:
 
-**Users**
-id: Integer (Primary Key)
-username: String (Unique)
-email: String (Unique)
-password_hash: String
-created_at: DateTime
-Has many: Tasks, Projects
-
-**Tasks**
-id: Integer (Primary Key)
-title: String
-description: Text
-status: Enum
-priority: Integer
-estimated_time: Float
-due_date: DateTime
-user_id: Integer (Foreign Key)
-project_id: Integer (Foreign Key)
-Belongs to: User, Project
-
-**Projects**
-id: Integer (Primary Key)
-name: String
-description: Text
-start_date: DateTime
-end_date: DateTime
-user_id: Integer (Foreign Key)
-Belongs to: User
-Has many: Tasks
+| **Users**                         | **Tasks**                              | **Projects**                        |
+| --------------------------------- | -------------------------------------- | ----------------------------------- |
+| **id:** Integer (Primary Key)     | **id:** Integer (Primary Key)          | **id:** Integer (Primary Key)       |
+| **username:** String (Unique)     | **title:** String                      | **name:** String                    |
+| **email:** String (Unique)        | **description:** Text                  | **description:** Text               |
+| **password_hash:** String         | **status:** Enum                       | **start_date:** DateTime            |
+| **created_at:** DateTime          | **priority:** Integer                  | **end_date:** DateTime              |
+| _Has many: Tasks, Projects_       | **estimated_time:** Float              | **user_id:** Integer (Foreign Key)  |
+|                                   | **due_date:** DateTime                 | _Belongs to: User_                  |
+|                                   | **user_id:** Integer (Foreign Key)     | _Has many: Tasks_                   |
+|                                   | **project_id:** Integer (Foreign Key)  |                                     |
+|                                   | _Belongs to: User, Project_            |                                     |
 
 ## **SQLAlchemy Models**
 Here's the Python code to implement these models using SQLAlchemy:
