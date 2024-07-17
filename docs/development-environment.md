@@ -9,19 +9,19 @@ Welcome to the development environment setup for AITaskMaster! This guide will w
  	
 	Python 3.9.5
  	
-	If you see a version lower than 3.9, please download and install the latest Python version.
+	If you see a version lower than 3.9, please [download and install the latest Python version.](https://www.python.org/downloads/)
 
 ???+ abstract "Step 2: Set up a virtual environment"
 
 	Create a new directory for your project and set up a virtual environment:
 	
-	**$ mkdir aitaskmaster
+	**$ mkdir aitaskmaster**
  	
-	$ cd aitaskmaster
+	**$ cd aitaskmaster**
  	
-	$ python -m venv venv
+	**$ python -m venv venv**
  	
-	$ source venv/bin/activate # On Windows, use `venv\Scripts\activate`**
+	**$ source venv/bin/activate # On Windows, use `venv\Scripts\activate`**
  	
 	You should now see (venv) at the beginning of your command prompt, indicating that the virtual environment is active.
 
@@ -30,39 +30,45 @@ Welcome to the development environment setup for AITaskMaster! This guide will w
 	Now, let's install FastAPI and other necessary packages:
 	
 	**$ pip install fastapi[all] sqlalchemy psycopg2-binary uvicorn**
+ 	
 	This command installs FastAPI with all optional dependencies, SQLAlchemy for database operations, psycopg2 for PostgreSQL support, and uvicorn as the ASGI server.
 
 ???+ abstract "Step 4: Install PostgreSQL"
 
-	Download and install PostgreSQL from the official website. After installation, create a new database for AITaskMaster:
+	Download and install PostgreSQL from the [official website.](https://www.postgresql.org/download/) After installation, create a new database for AITaskMaster:
 	
-	**$ psql -U postgres
+	**$ psql -U postgres**
  	
-	postgres=# CREATE DATABASE aitaskmaster;
+	**postgres=# CREATE DATABASE aitaskmaster;**
 	
- 	postgres=# \q**
+ 	**postgres=# \q**
 	
  	Make sure to **remember the password you set for the PostgreSQL user**, as you'll need it later in the project setup.
 
 ???+ abstract "Step 5: Set up Git for version control"
 
-	If you haven't already, install Git. Then, initialize a new Git repository in your project folder:
+	If you haven't already, [install Git.](https://git-scm.com/downloads) Then, initialize a new Git repository in your project folder:
 	
-	**$ git init
+	**$ git init**
 	
- 	$ git add .
+ 	**$ git add **.
 	
- 	$ git commit -m "Initial commit"**
+ 	**$ git commit -m "Initial commit"**
 	
  	Create a .gitignore file to exclude unnecessary files from version control:
 	
 	# .gitignore
-	venv/
-	__pycache__/
-	*.pyc
-	.env
+	
+ 	venv/
+	
+ 	__pycache__/
+	
+ 	*.pyc
+	
+ 	.env
+  	
   
-AI Assistant
+## **AI Assistant**
 Great job setting up your development environment! Here's a quick Python script to verify that everything is working correctly. Create a file named test_setup.py and paste the following code:
 
 from fastapi import FastAPI
