@@ -63,7 +63,7 @@ Welcome to the development environment setup for AITaskMaster! This guide will w
 	
  	**__pycache__/**
 	
- 	__*.pyc
+ 	__*.pyc__
 	
  	**.env**
   	
