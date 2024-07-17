@@ -51,17 +51,17 @@ Welcome to the development environment setup for AITaskMaster! This guide will w
 	
 	**$ git init**
 	
- 	**$ git add **.
+ 	**$ git add .**
 	
  	**$ git commit -m "Initial commit"**
 	
  	Create a .gitignore file to exclude unnecessary files from version control:
 	
-	# .gitignore
+	# '.gitignore'
 	
  	venv/
 	
- 	__pycache__/
+ 	'__pycache__/'
 	
  	*.pyc
 	
