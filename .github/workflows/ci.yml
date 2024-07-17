@@ -26,6 +26,7 @@ jobs:
             mkdocs-material-
       - run: pip install mkdocs-material
       - run: pip install "mkdocs-material[imaging]"
+      - run: pip install pymdown-extensions
       - run: mkdocs gh-deploy --force
       - run: python -m venv venv
       - run: source venv/bin/activate
