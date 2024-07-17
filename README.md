@@ -8,5 +8,5 @@ Personalized productivity insights and recommendations
 Integration with popular calendar and email services
 Collaborative features for team productivity
 
-##Target Audience:
+## Target Audience:
 Small business owners, freelancers, and remote teams looking to maximize productivity and efficiency.
