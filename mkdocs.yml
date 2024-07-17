@@ -34,9 +34,9 @@ theme:
     # - navigation.instant.prefetch
     # - navigation.instant.progress
     # - navigation.prune
-    - navigation.path
+    #- navigation.path
     - navigation.sections
-    - navigation.tabs
+    #- navigation.tabs
     # - navigation.tabs.sticky
     - navigation.top
     - navigation.tracking
@@ -147,3 +147,4 @@ markdown_extensions:
 nav:
   - Getting started: index.md
   - Start Your AITaskMaster Project: start-project.md
+  - 1. Set Up Your Development Environment: development-environment.md
