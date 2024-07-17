@@ -57,15 +57,15 @@ Welcome to the development environment setup for AITaskMaster! This guide will w
 	
  	Create a .gitignore file to exclude unnecessary files from version control:
 	
-	# '.gitignore'
+	**# .gitignore**
 	
- 	venv/
+ 	**venv/**
 	
- 	'__pycache__/'
+ 	**__pycache__/**
 	
- 	*.pyc
+ 	__*.pyc
 	
- 	.env
+ 	**.env**
   	
   
 ## **AI Assistant**
