@@ -68,6 +68,7 @@ theme:
 # Plugins
 plugins:
   - blog
+  - social
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - minify:
@@ -78,18 +79,18 @@ extra:
     status:
     new: Recently added
     deprecated: Deprecated
-  analytics:
-    provider: google
-    property: !ENV GOOGLE_ANALYTICS_KEY
-  #homepage: https://kingsoftwaresolution.com/
-  #generator: false
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/srammu/
-      name: King Koftware Solution on Github
-    - icon: fontawesome/brands/facebook
-      link: https://facebook.com/
-      name: King Software Solution on Facebook
+    analytics:
+      provider: google
+      property: !ENV GOOGLE_ANALYTICS_KEY
+    homepage: https://kingsoftwaresolution.com/
+    generator: false
+    social:
+      - icon: fontawesome/brands/github
+        link: https://github.com/srammu/
+        name: King Koftware Solution on Github
+      - icon: fontawesome/brands/facebook
+        link: https://facebook.com/
+        name: King Software Solution on Facebook
 
 # Extensions
 markdown_extensions:
