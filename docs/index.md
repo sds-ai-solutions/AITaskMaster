@@ -27,7 +27,7 @@ Small business owners, freelancers, and remote teams looking to maximize product
 
 ##Financial Projection:
 
-| **Category**                            |**Monthly Cost**    | **Monthly Revenue**    | **Monthly Profit**    |
+| **Category**                            |**Monthly Cost**     | **Monthly Revenue**    | **Monthly Profit**    |
 | --------------------------------------- | ------------------- | ---------------------- | --------------------- |
 | Server Hosting                          | $100                | -                      | -                     |
 | Domain & SSL                            | $10                 | -                      | -                     |
@@ -48,7 +48,7 @@ Small business owners, freelancers, and remote teams looking to maximize product
 - [x] **Total development time:** Approximately 6 months
 
 !!! example "Sample Code Snippet (Python with FastAPI):"
-    ``` { .yaml .select .copy }
+    ``` { .yaml .copy }
     from fastapi import FastAPI, Depends, HTTPException
     from sqlalchemy.orm import Session
     from pydantic import BaseModel
