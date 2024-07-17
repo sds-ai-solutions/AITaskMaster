@@ -82,39 +82,4 @@ def read_tasks(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
     return tasks
 ```
 
-!!! example "Sample Code Snippet (Python with FastAPI):"
-    ``` { .yaml .copy }
-    from fastapi import FastAPI, Depends, HTTPException
-    from sqlalchemy.orm import Session
-    from pydantic import BaseModel
-    from typing import List
-    import ml_model  # Custom module for AI functionality
-    
-    app = FastAPI()
-    
-    class Task(BaseModel):
-        title: str
-        description: str
-        estimated_time: float
-    
-    @app.post("/tasks/", response_model=Task)
-    def create_task(task: Task, db: Session = Depends(get_db)):
-        db_task = models.Task(**task.dict())
-        db.add(db_task)
-        db.commit()
-        db.refresh(db_task)
-        
-        # Use AI to estimate time and prioritize
-        db_task.estimated_time = ml_model.estimate_time(db_task.title, db_task.description)
-        db_task.priority = ml_model.prioritize_task(db_task.title, db_task.description)
-        
-        db.commit()
-        return db_task
-    
-    @app.get("/tasks/", response_model=List[Task])
-    def read_tasks(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
-        tasks = db.query(models.Task).offset(skip).limit(limit).all()
-        return tasks
-    ```
-
 This project leverages AI to create a unique, high-value product with minimal ongoing costs. By focusing on organic growth and word-of-mouth marketing, you can keep expenses low while providing a premium service. As your user base grows, you can explore additional features and premium tiers to increase revenue.
