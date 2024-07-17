@@ -61,7 +61,7 @@ Welcome to the development environment setup for AITaskMaster! This guide will w
 	
  	**venv/**
 	
- 	__pycache__/ '__'pycache'__'
+ 	__pycache__/ 'use __ begin and end of the pycache'
 	
  	__*.pyc__
 	
