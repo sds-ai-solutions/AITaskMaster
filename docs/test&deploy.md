@@ -206,7 +206,7 @@ jobs:
 
 ## **Deployment Architecture**
 
-![AITaskMaster Deployment Architecture showing frontend on Netlify, backend on Heroku, and database on Heroku Postgres](https://github.com/sds-ai-solutions/AITaskMaster/blob/8d327bb37121588c81bae744109f455f18fdceee/docs/images/Deployment-Architecture.png)
+![AITaskMaster Deployment Architecture showing frontend on Netlify, backend on Heroku, and database on Heroku Postgres](https://github.com/sds-ai-solutions/AITaskMaster/blob/main/docs/images/Deployment-Architecture.png)
 
 ## **AI Assistant**
 > Excellent work on setting up testing and deployment for AITaskMaster! Here are some additional considerations:
