@@ -257,7 +257,7 @@ data:
 
 ## **Deployment Architecture Diagram**
 
-![Deployment Architecture for AITaskMaster showing Kubernetes clusters, databases, caching, and monitoring components]()
+![Deployment Architecture for AITaskMaster showing Kubernetes clusters, databases, caching, and monitoring components](https://github.com/sds-ai-solutions/AITaskMaster/blob/main/docs/images/Deployment-Architecture-Diagram.jpg)
 
 > ## **AI Assistant**
 >
