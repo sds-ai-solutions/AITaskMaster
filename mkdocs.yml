@@ -154,16 +154,21 @@ nav:
     - Develop the Frontend:
       - develop/UI/index.md
       - Advance Frontend UI: develop/UI/dev-frontend-adv.md
-      - User Testing and Feedback: user-test-feedback.md
+      - User Testing and Feedback: develop/UI/user-test-feedback.md
     - Integrate AI Models:
       - develop/model/index.md
-      - AI Model Refinement: ai-refinement.md
+      - AI Model Refinement: develop/model/ai-refinement.md
   - Testing and Deployment:
     - test-deploy-scale/index.md
-    - Deployment and Scaling: deploy&scale.md
-  - Launch and Future Improvements: launch&Improve.md
+    - Deployment and Scaling: test-deploy-scale/deploy&scale.md
+  - Launch and Future Improvements:
+    - future/index.md
+    - Future Enhancements: future/future-enhance.mf
+  - Conclusion:
+    - learning/index.md
+    - AI Ethics and Responsible Development: learning/dev-ethics-responsible.md
+    - The Future of AI-Powered Productivity: learning/future-ai-prod.md
   - User Feedback and Iteration: user-feedback.md
-  - AI Ethics and Responsible Development: dev-ethics-responsible.md
-  - The Future of AI-Powered Productivity: future-ai-prod.md
-  - Join AITaskMaster 2.0 Beta Program: beta-prog.md
-  - AITaskMaster 2.0 FAQ: beta-faq.md
+  - Join AITaskMaster 2.0 Beta Program:
+    - beta/index.md
+    - AITaskMaster 2.0 FAQ: beta/beta-faq.md
