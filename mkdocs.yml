@@ -146,8 +146,7 @@ markdown_extensions:
 # Page tree
 nav:
   - Getting started: index.md
-  - Start Your AITaskMaster Project: start-project.md
-  - Develop:
+  - Start Your AITaskMaster Project:
     - develop/index.md
     - Set Up Your Development Environment: develop/development-environment.md
     - Design Your Database Schema: develop/design-db-scheme.md
