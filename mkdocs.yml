@@ -154,8 +154,13 @@ nav:
     - Develop the Frontend:
       - develop/UI/index.md
       - Advance Frontend UI: develop/UI/dev-frontend-adv.md
-    - Integrate AI Models: develop/integrate-ai.md
-  - Testing and Deployment: test&deploy.md
+      - User Testing and Feedback: user-test-feedback.md
+    - Integrate AI Models:
+      - develop/model/index.md
+      - AI Model Refinement: ai-refinement.md
+  - Testing and Deployment:
+    - test-deploy-scale/index.md
+    - Deployment and Scaling: deploy&scale.md
   - Launch and Future Improvements: launch&Improve.md
   - User Feedback and Iteration: user-feedback.md
   - AI Ethics and Responsible Development: dev-ethics-responsible.md
