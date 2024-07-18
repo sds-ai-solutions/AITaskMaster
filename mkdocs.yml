@@ -145,7 +145,7 @@ markdown_extensions:
 
 # Page tree
 nav:
-  - Getting started: index.md
+  - Home: index.md
   - Start Your AITaskMaster Project:
     - develop/index.md
     - Set Up Your Development Environment: develop/development-environment.md
@@ -172,3 +172,4 @@ nav:
   - Join AITaskMaster 2.0 Beta Program:
     - beta/index.md
     - AITaskMaster 2.0 FAQ: beta/beta-faq.md
+  - Getting started: get-start.md
