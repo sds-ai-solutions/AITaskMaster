@@ -151,7 +151,9 @@ nav:
     - Set Up Your Development Environment: develop/development-environment.md
     - Design Your Database Schema: develop/design-db-scheme.md
     - Implement Core Backend Functionality: develop/backend-function.md
-    - Develop the Frontend: develop/dev-frontend.md
+    - Develop the Frontend:
+      - develop/UI/index.md
+      - Advance Frontend UI: develop/UI/dev-frontend-adv.md
     - Integrate AI Models: develop/integrate-ai.md
   - Testing and Deployment: test&deploy.md
   - Launch and Future Improvements: launch&Improve.md
@@ -159,3 +161,4 @@ nav:
   - AI Ethics and Responsible Development: dev-ethics-responsible.md
   - The Future of AI-Powered Productivity: future-ai-prod.md
   - Join AITaskMaster 2.0 Beta Program: beta-prog.md
+  - AITaskMaster 2.0 FAQ: beta-faq.md
