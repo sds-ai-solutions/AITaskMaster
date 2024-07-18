@@ -35,7 +35,7 @@ theme:
     # - navigation.instant.progress
     # - navigation.prune
     #- navigation.path
-    - navigation.sections
+    #- navigation.sections
     #- navigation.tabs
     # - navigation.tabs.sticky
     - navigation.top
