@@ -15,7 +15,7 @@ copyright: Copyright &copy; 2023 - 2025 King Software Solution
 # Configuration
 theme:
   name: material
-  #custom_dir: material/overrides
+  custom_dir: material/overrides
   features:
     - announce.dismiss
     - content.action.edit
@@ -147,11 +147,13 @@ markdown_extensions:
 nav:
   - Getting started: index.md
   - Start Your AITaskMaster Project: start-project.md
-    - 1. Set Up Your Development Environment: development-environment.md
-    - 2. Design Your Database Schema: design-db-scheme.md
-    - 3. Implement Core Backend Functionality: backend-function.md
-    - 4. Develop the Frontend: dev-frontend.md
-    - 5. Integrate AI Models: integrate-ai.md
+  - Develop:
+    - develop/index.md
+    - Set Up Your Development Environment: develop/development-environment.md
+    - Design Your Database Schema: develop/design-db-scheme.md
+    - Implement Core Backend Functionality: develop/backend-function.md
+    - Develop the Frontend: develop/dev-frontend.md
+    - Integrate AI Models: develop/integrate-ai.md
   - Testing and Deployment: test&deploy.md
   - Launch and Future Improvements: launch&Improve.md
   - User Feedback and Iteration: user-feedback.md
