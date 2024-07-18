@@ -38,7 +38,7 @@ To keep AITaskMaster competitive and continuously valuable to users, consider th
 
 ## **Roadmap**
 
-![Roadmap](https://github.com/sds-ai-solutions/AITaskMaster/main/docs/images/Roadmap.png)
+![Roadmap](https://github.com/sds-ai-solutions/AITaskMaster/blob/main/docs/images/Roadmap.png)
 
 ## **Continuous Improvement Process**
 To ensure AITaskMaster remains at the forefront of AI-powered task management, implement the following continuous improvement processes:
